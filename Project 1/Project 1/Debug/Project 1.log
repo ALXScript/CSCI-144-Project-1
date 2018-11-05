@@ -1,0 +1,104 @@
+﻿  main.cpp
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(8): error C3646: 'mutexLock': unknown override specifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(34): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(34): error C2228: left of '.acquire' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(34): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(40): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(40): error C2228: left of '.release' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(40): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(49): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(49): error C2228: left of '.acquire' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(49): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(55): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(55): error C2228: left of '.release' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(55): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(4): error C2374: 'MAX': redefinition; multiple initialization
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(4): note: see declaration of 'MAX'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): error C2011: 'TSQueue': 'class' type redefinition
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(24): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(25): error C2065: 'front': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(26): error C2065: 'nextEmpty': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(27): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(31): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(34): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(34): error C2228: left of '.acquire' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(34): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(35): error C2065: 'nextEmpty': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(35): error C2065: 'front': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(36): error C2065: 'items': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(36): error C2065: 'nextEmpty': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(37): error C2065: 'nextEmpty': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(40): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(40): error C2228: left of '.release' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(40): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(46): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(49): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(49): error C2228: left of '.acquire' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(49): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(50): error C2065: 'front': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(50): error C2065: 'nextEmpty': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(51): error C2065: 'items': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(51): error C2065: 'front': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(52): error C2065: 'front': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(55): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(55): error C2228: left of '.release' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(55): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(4): error C2374: 'MAX': redefinition; multiple initialization
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(4): note: see declaration of 'MAX'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(24): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(24): error C2084: function 'int {ctor}(void)' already has a body
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(24): note: see previous definition of '{ctor}'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(25): error C2065: 'front': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(26): error C2065: 'nextEmpty': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(31): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(31): error C2084: function 'bool tryInsert(int)' already has a body
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(31): note: see previous definition of 'tryInsert'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(34): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(34): error C2228: left of '.acquire' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(34): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(35): error C2065: 'nextEmpty': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(35): error C2065: 'front': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(36): error C2065: 'items': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(36): error C2065: 'nextEmpty': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(37): error C2065: 'nextEmpty': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(40): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(40): error C2228: left of '.release' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(40): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(46): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(46): error C2084: function 'bool tryRemove(int *)' already has a body
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(46): note: see previous definition of 'tryRemove'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(49): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(49): error C2228: left of '.acquire' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(49): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(50): error C2065: 'front': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(50): error C2065: 'nextEmpty': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(51): error C2065: 'items': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(51): error C2065: 'front': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(52): error C2065: 'front': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(55): error C2065: 'mutexLock': undeclared identifier
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(55): error C2228: left of '.release' must have class/struct/union
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(55): note: type is 'unknown-type'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\main.cpp(19): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\main.cpp(19): error C2227: left of '->tryInsert' must point to class/struct/union/generic type
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\main.cpp(25): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\main.cpp(25): error C2227: left of '->tryInsert' must point to class/struct/union/generic type
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\main.cpp(39): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\main.cpp(39): error C2227: left of '->tryRemove' must point to class/struct/union/generic type
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\main.cpp(45): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\main.cpp(45): error C2227: left of '->tryRemove' must point to class/struct/union/generic type
+d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\main.cpp(68): error C2027: use of undefined type 'TSQueue'
+  d:\!applications\github\github repositories\csci-144-project-1\project 1\project 1\tsqueue.h(6): note: see declaration of 'TSQueue'
