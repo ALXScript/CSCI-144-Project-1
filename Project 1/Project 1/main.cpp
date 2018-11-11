@@ -1,13 +1,67 @@
 #include<iostream>
-#include"TSQueue.h"
-#include"Producer.h"
-#include"Consumer.h"
 #include<thread>
 #include<chrono>
+#include<mutex>
 
 using namespace std;
 
-//funciton for producer threads to add an item to the queue
+//make the MAX variable
+const int MAX = 10;
+
+//****************CLASS DECLARATION****************
+class TSQueue {
+	//create sync variables
+	mutex mutexLock;
+
+	//create actual variables
+	int items[MAX];
+	int front;
+	int nextEmpty;
+
+public:
+	TSQueue();
+	~TSQueue();
+	bool tryInsert(int passItem);
+	bool tryRemove(int *passItem);
+};
+
+TSQueue::TSQueue() {
+	front = 0;
+	nextEmpty = 0;
+}
+
+TSQueue::~TSQueue() {};
+
+bool TSQueue::tryInsert(int passItem) {
+	bool success = false;
+
+	mutexLock.lock();
+	if ((nextEmpty - front) < MAX) {
+		items[nextEmpty % MAX] = passItem;
+		nextEmpty++;
+		success = true;
+	}
+	mutexLock.unlock();
+	return success;
+};
+
+bool TSQueue::tryRemove(int *passItem) {
+	bool success = false;
+
+	mutexLock.lock();
+	if (front < nextEmpty) {
+		*passItem = items[front % MAX];
+		front++;
+		success = true;
+	}
+	mutexLock.unlock();
+
+	return success;
+};
+//**********END CLASS DECLARATION********************
+
+
+//Funciton for producer threads to add an item to the queue
 void produceFunction(TSQueue *queue) {
 	//item to add to the queue
 	int item;
@@ -22,7 +76,7 @@ void produceFunction(TSQueue *queue) {
 	}
 
 	//produce item and put it in the queue
-	if(queue->tryInsert(item)){
+	if (queue->tryInsert(item)) {
 		printf("Item ID %d\n", item, " produced by thread number: %d\n", threadID, "\n");
 	}
 }
@@ -47,34 +101,44 @@ void consumeFunction(TSQueue *queue) {
 	};
 }
 
-int main() {
+int main(int argc, char *argv[]) {
+	//get the TP and TC values from the terminal
+	char firstArg = *argv[1];
+	char secondArg = *argv[2];
+
+	//convert the TP and TC values to Integers
+	int TP = (firstArg - '0');
+	int TC = (secondArg - '0');
+
+	//cout TP and TC for testing
+	printf("First argument is: %d\nSecond Argument is: %d", TP, TC);
 
 	//create initial queue structure
-	TSQueue *queue;
+	//TSQueue *queue;
 
 	//create random sleep intervals
-	int t;
+	//int t;
 
-	
+
 
 	/*program runs forever
 	while (true)
 	{
 
-	}*/
+	}
 
 	//start producer threads to insert
 	for (int i = 0; i < 3; i++) {
-		queue = new TSQueue();
-		thread producer(produceFunction, queue);
-		producer.join();
+	queue = new TSQueue();
+	thread producer(produceFunction, queue);
+	producer.join();
 	}
 
 
 	// Remove 20 items from each queue
 	for (int i = 0; i < 3; i++) {
-		printf("Queue %d:\n", i);
-		thread consumer(consumeFunction, queue);
-		consumer.join();
-	}
+	printf("Queue %d:\n", i);
+	thread consumer(consumeFunction, queue);
+	consumer.join();
+	}*/
 }
